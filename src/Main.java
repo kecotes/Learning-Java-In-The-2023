@@ -34,7 +34,22 @@ public class Main {
         g /= f;
         System.out.println(g);
 
+        //Operadores de relaciòn
+        //Realizan comparaciones entre datos compatibles de tipos primitivos (numéricos, carácter y booleanos) teniendo siempre un resultado booleano.
 
+        boolean n1, n2;
+        System.out.println(5 != 4);
+        System.out.println( 5 >= 7);
 
+        //Operadores lógicos
+        System.out.println( !(5==5) ); //Negaciòn: false
+        System.out.println( true & false ); // Producto Lògico: false
+
+        //La clase Math representa la librería matemática de Java.
+        // Las funciones que contiene son las de todos los lenguajes, parece que se han metido en una clase solamente a propósito de agrupación
+
+        double PI = Math.PI;
+        double raiz = Math.sqrt(25);
+        System.out.println("Pi: " + PI + " Raiz: " + raiz + " Valor absoluto: " + Math.abs(-123) + " Hipotenusa: " + Math.hypot(15,9));
     }
 }
